@@ -3,7 +3,8 @@ export default (sequelize, DataTypes) => {
     number: DataTypes.INTEGER,
     color: DataTypes.INTEGER,
     shading: DataTypes.INTEGER,
-    symbol: DataTypes.INTEGER
+    symbol: DataTypes.INTEGER,
+    image: DataTypes.STRING
   }, {});
   Card.associate = (models) => {
   };
